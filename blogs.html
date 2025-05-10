@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Insights | GRP10 Solutions</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>GRP10</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="blogs.html" class="active">Blog</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h2>Tech Insights & Perspectives</h2>
+            <p>Expert analysis on software development, cloud solutions, and emerging technologies</p>
+        </div>
+    </section>
+
+    <section class="blog-main">
+        <div class="container">
+            <div class="blog-filters">
+                <button class="filter-btn active" data-filter="all">All Articles</button>
+                <button class="filter-btn" data-filter="development">Software Dev</button>
+                <button class="filter-btn" data-filter="cloud">Cloud Solutions</button>
+                <button class="filter-btn" data-filter="cybersecurity">Cybersecurity</button>
+                <button class="filter-btn" data-filter="analytics">Data Analytics</button>
+            </div>
+            
+            <div class="blog-grid">
+                <!-- Article 1 -->
+                <article class="blog-post" data-category="cloud">
+                    <div class="post-image">
+                        <img src="images/blog_cloud.jpg" alt="Cloud Migration">
+                    </div>
+                    <div class="post-content">
+                        <span class="post-category cloud">Cloud Solutions</span>
+                        <h2><a href="single-post.html">Cloud Migration Strategies for Enterprises</a></h2>
+                        <p class="post-excerpt">Learn the proven framework for successful large-scale cloud migrations without business disruption...</p>
+                        <div class="post-meta">
+                            <span class="post-date"><i class="far fa-calendar"></i> June 15, 2024</span>
+                            <span class="post-readtime"><i class="far fa-clock"></i> 8 min read</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Article 2 -->
+                <article class="blog-post" data-category="cybersecurity">
+                    <div class="post-image">
+                        <img src="images/cyber_2.jpg" alt="Zero Trust Security">
+                    </div>
+                    <div class="post-content">
+                        <span class="post-category cybersecurity">Cybersecurity</span>
+                        <h2><a href="single-post.html">Implementing Zero Trust Architecture</a></h2>
+                        <p class="post-excerpt">Why traditional perimeter security is obsolete and how to transition to Zero Trust models...</p>
+                        <div class="post-meta">
+                            <span class="post-date"><i class="far fa-calendar"></i> May 28, 2024</span>
+                            <span class="post-readtime"><i class="far fa-clock"></i> 10 min read</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Article 3 -->
+                <article class="blog-post" data-category="development">
+                    <div class="post-image">
+                        <img src="images/dev.jpg" alt="AI Coding">
+                    </div>
+                    <div class="post-content">
+                        <span class="post-category development">Software Dev</span>
+                        <h2><a href="single-post.html">AI Pair Programming: Boon or Threat?</a></h2>
+                        <p class="post-excerpt">Examining how GitHub Copilot and similar tools are changing developer workflows...</p>
+                        <div class="post-meta">
+                            <span class="post-date"><i class="far fa-calendar"></i> April 12, 2024</span>
+                            <span class="post-readtime"><i class="far fa-clock"></i> 6 min read</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Article 4 -->
+                <article class="blog-post" data-category="analytics">
+                    <div class="post-image">
+                        <img src="images/dataanalysis.jpg" alt="Data Visualization">
+                    </div>
+                    <div class="post-content">
+                        <span class="post-category analytics">Data Analytics</span>
+                        <h2><a href="single-post.html">Advanced Data Visualization Techniques</a></h2>
+                        <p class="post-excerpt">Beyond bar charts: innovative ways to communicate complex data insights effectively...</p>
+                        <div class="post-meta">
+                            <span class="post-date"><i class="far fa-calendar"></i> March 30, 2024</span>
+                            <span class="post-readtime"><i class="far fa-clock"></i> 7 min read</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Article 5 -->
+                <article class="blog-post" data-category="cloud">
+                    <div class="post-image">
+                        <img src="images/blog_cloud_2.jpg" alt="Serverless Computing">
+                    </div>
+                    <div class="post-content">
+                        <span class="post-category cloud">Cloud Solutions</span>
+                        <h2><a href="single-post.html">Serverless Computing Cost Optimization</a></h2>
+                        <p class="post-excerpt">Hidden expenses in serverless architectures and how to manage them...</p>
+                        <div class="post-meta">
+                            <span class="post-date"><i class="far fa-calendar"></i> February 18, 2024</span>
+                            <span class="post-readtime"><i class="far fa-clock"></i> 9 min read</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Article 6 -->
+                <article class="blog-post" data-category="cybersecurity">
+                    <div class="post-image">
+                        <img src="images/security_1.jpg" alt="GDPR Compliance">
+                    </div>
+                    <div class="post-content">
+                        <span class="post-category cybersecurity">Cybersecurity</span>
+                        <h2><a href="single-post.html">2024 GDPR Compliance Updates</a></h2>
+                        <p class="post-excerpt">What's changed in data protection regulations and how to ensure compliance...</p>
+                        <div class="post-meta">
+                            <span class="post-date"><i class="far fa-calendar"></i> January 5, 2024</span>
+                            <span class="post-readtime"><i class="far fa-clock"></i> 11 min read</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            
+            <div class="pagination">
+                <a href="#" class="page-numbers current">1</a>
+                <a href="#" class="page-numbers">2</a>
+                <a href="#" class="page-numbers">3</a>
+                <a href="#" class="next-page">Next <i class="fas fa-chevron-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>GRP10</h3>
+                    <p>Innovating tomorrow's technology today.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index">Home</a></li>
+                        <li><a href="about">About</a></li>
+                        <li><a href="services">Services</a></li>
+                        <li><a href="blog">Blog</a></li>
+                        <li><a href="contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p>info@GRP10.com</p>
+                    <p>+256 787 020825</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 GRP10 Solutions. All rights reserved.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/blog.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
